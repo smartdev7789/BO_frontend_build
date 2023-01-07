@@ -1,0 +1,577 @@
+/* [COLORS] */
+
+
+/* --[GREEN] -- [ #63b12d ] */
+
+
+/* background */
+
+.toggle-btn__radio:checked+.toggle-btn__radio-controller,
+.btn:visited,
+.btn {
+    background-color: #63b12d;
+}
+
+
+/* border */
+
+.calendar__day_start .calendar__day-item,
+.calendar__day_end .calendar__day-item,
+.calendar__day:hover .calendar__day-item,
+.btn_stroke,
+.tab__item_active {
+    border-color: #63b12d;
+}
+
+
+/* outline */
+
+.input_active .calendar__view,
+.select__box_active .select__box,
+*:focus {
+    outline-color: #63b12d;
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo-img,
+    .header__logo-img:after,
+    .header__logo-img:before {
+        background-color: #63b12d;
+    }
+}
+
+
+/* --[ DARKEN GREEN ] -- [ #307E00 ] */
+
+
+/* text */
+
+.calendar__period:hover,
+.ico-link:hover,
+.green-link:hover,
+a.text-l-green:hover {
+    color: #307E00;
+}
+
+
+/* background-color */
+
+.btn:hover {
+    background-color: #307E00;
+}
+
+
+/* svg */
+
+.green-link:hover #ico-fullscreen {
+    fill: #307E00;
+}
+
+
+/* --[ LIGHTEN GREEN] -- [ #2ed13b ] */
+
+
+/* text */
+
+.list-box__data,
+.calendar__period.calendar__period_active,
+.calendar__period,
+.ico-link,
+.table__row-duplicate,
+.table__row-edit,
+.table__sort-link.table__sort-link_desc,
+.table__sort-link.table__sort-link_asc,
+.btn-add:before,
+.green-link,
+.product__green-plus,
+.variant__green-plus,
+.hidder_line-on>.hidder__line .hidder__name,
+.text-l-green:visited,
+.text-l-green,
+.sidebar__item.sidebar__item_active:visited,
+.sidebar__item.sidebar__item_active,
+.sidebar__item:visited:hover,
+.sidebar__item:hover,
+.primary-green-text {
+    color: #2ed13b;
+}
+
+
+/* background-color */
+
+.calendar__day_start .calendar__day-item,
+.calendar__day_end .calendar__day-item,
+.calendar__day:hover .calendar__day-item,
+.input__checkbox:checked+.toggle .toggle__controller:before,
+.tag__label {
+    background-color: #2ed13b;
+}
+
+
+/* SVG */
+
+.green-link #ico-fullscreen,
+.sidebar__item_active .sidebar__ico-img,
+.sidebar__item_active:visited .sidebar__ico-img,
+.sidebar__item:hover .sidebar__ico-img {
+    /* left bar items hover */
+    fill: #2ed13b;
+}
+
+
+/* border */
+
+.calendar__tab-item_active,
+.tab-panel__item {
+    border-color: #2ed13b;
+}
+
+
+/* --[LIGTHEST GREEN] -- [ #dee8d6 ] */
+
+
+/* border */
+
+.modal-footer,
+.modal-header,
+.product-row__variant .product-row__cell-action:before,
+.product-row__variant .product-row__cell-action:after,
+.product-row__image,
+.variant__image,
+.image,
+.card {
+    border-color: #dee8d6;
+}
+
+
+/* -- [#f8f8f8] -- */
+
+.calendar__table-container,
+.calendar__period-selector,
+.report-table__row_head .report-table__cell_register,
+.report-table__cell_name,
+.table__property-cell,
+.table__row_header,
+.tab-panel__content {
+    background-color: #f8f8f8;
+}
+
+
+/* --[GRAY GREEN] -- [ #b6c6b7 ]*/
+
+
+/* border */
+
+.calendar,
+.calendar__view,
+.table__row-input,
+.ogp_images__upload,
+.input__number-spin,
+.toggle-btn__radio-controller,
+.footer__buttons,
+.additional-info__editor,
+.select__list,
+.select__box,
+.input__radio-control,
+.input__checkbox-control,
+.input__text {
+    border-color: #b6c6b7;
+}
+
+
+/* border opacity - 30% */
+
+.table__row-item {
+    border-color: rgba(182, 198, 183, .3);
+}
+
+
+/* -- [#e4e9e4] -- */
+
+.variant__shop-tab-panel .hidder__divider,
+.tab-panel__group,
+.tab-panel__content {
+    border-color: #e4e9e4;
+}
+
+
+/* --[ #d8e8d9 ]-- */
+
+.calendar__day-wrapper:after,
+.calendar__day-wrapper,
+.modal-fullscreen__control,
+.toggle {
+    border-color: #d8e8d9;
+}
+
+
+/* -- [#eef0ee] -- */
+
+.variant__value,
+.modifier__property-cell {
+    border-color: #eef0ee;
+}
+
+
+/* -- [#6a6f7b] -- */
+
+.calendar__day-name {
+    color: #6a6f7b
+}
+
+
+/* -- [#c5c8d1] -- */
+
+.calendar__day_disabled {
+    color: #c5c8d1;
+}
+
+
+/* --[WHITE] -- [ #fff ] */
+
+
+/* text */
+
+.calendar__day_start .calendar__day-item,
+.calendar__day_end .calendar__day-item,
+.calendar__day:hover .calendar__day-item,
+.toggle-btn__radio:checked+.toggle-btn__radio-controller,
+.tag__label,
+.sidebar__item:visited,
+
+/* left bar items */
+
+.sidebar__item,
+.btn:visited,
+
+/* buttons */
+
+.btn {
+    color: #fff;
+}
+
+
+/* SVG */
+
+.sidebar__ico-img {
+    fill: #fff;
+}
+
+
+/* background */
+
+.list-box__container,
+.calendar,
+.calendar__day_between .calendar__day-wrapper:after,
+.calendar__day_end .calendar__day-wrapper:after,
+.calendar__day_start .calendar__day-wrapper:after,
+.modal-wrapper,
+.modal-header,
+.modal-content,
+.table__list_active .table__sort-link,
+.table__list-container,
+.modal-footer .btn.btn-cancel,
+.variant__modal .input__checkbox-control,
+.modifier__edit-popup .input__checkbox-control,
+.table__cell .input__checkbox-control,
+.items-tab .tab-panel__content,
+.header.fixed,
+.select__box,
+.select__list,
+.card {
+    background-color: #fff;
+}
+
+.success__message {
+    background-color: #2ed13b;
+}
+
+
+/* --[ GRAY ] -- [ #6a6a67 ] */
+
+
+/* text */
+
+.calendar__from.select__box,
+.calendar__period-selector_compare .calendar__period,
+.calendar__day,
+.calendar__label,
+.calendar__tab-item,
+.gift-card-details .report-table__body .report-table__cell:not(.gift-card-details__number),
+.report-table__cell.gift-card-totals__value,
+.report-table__cell.report-table__cell_time-opened,
+.report-table__row_head .report-table__cell_register,
+.report-table__row_top-head .report-table__cell,
+.modal-header__title,
+.table__row-input,
+.table__cell,
+.filter.hidder_line-on>.hidder__line .hidder__name,
+.input__number-spin,
+.toggle-btn__radio-controller,
+.toggle-btn__text,
+.tab-panel__toggle,
+.image__main-text,
+.input__label,
+.card__title,
+.tab__link:visited,
+.tab__link,
+.btn.btn-cancel,
+.breadcrumbs-link:visited,
+.breadcrumbs-link {
+    color: #6a6a67;
+}
+
+
+/* background */
+
+.left-sidebar {
+    background-color: #6a6a67;
+}
+
+
+/* border */
+
+.breadcrumbs-link.breadcrumbs-link:hover,
+.btn.btn-cancel {
+    border-color: #6a6a67;
+}
+
+
+/* --[ #989898 ]-- */
+
+
+/* text */
+
+.list-box__item,
+.calendar__from option,
+.ogp_images__text,
+.select__box {
+    color: #989898;
+}
+
+
+/* DARKEN GRAY */
+
+
+/* background */
+
+.sidebar__item_active,
+.sidebar__item:hover {
+    background-color: #2d362d;
+}
+
+
+/* --[#0d0d0d]-- */
+
+.modal__close:after,
+.modal__close:before {
+    background-color: #0d0d0d;
+}
+
+
+/* -- [#333] -- */
+
+.input__number-spin:active,
+.tab__link:hover {
+    color: #333;
+}
+
+
+/* -- [#282827] -- */
+
+.calendar__hour-select .list-box__data,
+.calendar__view,
+.report-table__cell.report-table__cell_register,
+.report-table__row_totals .report-table__cell,
+.table__row-input:focus,
+.btn.btn_stroke,
+.input__text,
+.select__target_selected.select__target_selected {
+    color: #282827;
+}
+
+
+/* --[LIGHT GRAY] -- [ #a1a1a1 ] */
+
+
+/* text */
+
+.report-table__cell,
+.table__sort-link,
+.input__clarification,
+.toggle__text,
+.breadcrumbs-link:last-child {
+    color: #a1a1a1;
+}
+
+
+/* background-color */
+
+.toggle__controller:before {
+    background-color: #a1a1a1;
+}
+
+
+/* --[ #d5d5d5 ]-- */
+
+
+/* color */
+
+.select__target,
+::-webkit-input-placeholder {
+    color: #d5d5d5;
+}
+
+
+/* --[LIGHTEN GRAY] -- [ #e8e8e7 ] */
+
+.breadcrumbs-link:not(:last-child):after {
+    color: #e8e8e7;
+}
+
+.report-table__cell_register,
+.report-table__row_totals .report-table__cell,
+.modal-footer {
+    background-color: #e8e8e7;
+}
+
+
+/* --[#e9eee9]-- */
+
+.calendar__comapre-container,
+.calendar__start,
+.calendar__period-selector,
+.report-table__expanding .report-table__cell:first-child:before {
+    border-color: #e9eee9;
+}
+
+
+/* --[LIGHTEST GRAY] -- [ #f2f2f2 ] */
+
+.list-box__item_selected,
+.list-box__item:hover,
+.table__list-item_active,
+.table__list-item:hover,
+.ogp_add-product .modal-wrapper,
+.ogp_add-product .modal-header,
+.ogp_add-product .modal-content,
+.select_no-checkbox .select__item_selected,
+.select__label-wrapper:hover,
+.wrapper,
+.main {
+    background-color: #f2f2f2;
+}
+
+
+/* border */
+
+.report-table__row_top-head,
+.report-table__row_head,
+.report-table__cell,
+.card__row_border-bottom:after,
+.table__list_active .table__sort-link,
+.table__list-container,
+.table__list-item,
+.variant,
+.hidder__divider,
+.select__item {
+    border-color: #f2f2f2;
+}
+
+
+/* [#fafafa] */
+
+.modal-fullscreen__control,
+.toggle {
+    background-color: #fafafa;
+}
+
+
+/* --[#fcfcfc]-- */
+
+.input__text:disabled {
+    background-color: #fcfcfc;
+}
+
+
+/* [#e3e0e0] */
+
+.toggle__controller {
+    background-color: #e3e0e0;
+}
+
+
+/* --[#E1FFEE]-- */
+
+
+/* [TRANSPARENT] */
+
+.btn.btn_stroke,
+.btn.btn-cancel {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-logout {
+    background-color: red;
+}
+
+.btn-logout:hover {
+    background-color: crimson;
+}
+
+
+/* -- [#f5e1e1] --*/
+
+.is-error .ogp_images__upload-progress {
+    background-color: #f5e1e1;
+}
+
+
+/* -- [ SHADOW COLORS ] -- */
+
+.header {
+    -webkit-box-shadow: 0px 7px 3px -3px rgba(99, 177, 45, .08);
+    box-shadow: 0px 7px 3px -3px rgba(99, 177, 45, .08);
+}
+
+.card {
+    -webkit-box-shadow: 0 2px 4px rgba(99, 177, 45, .11);
+    box-shadow: 0 2px 4px rgba(99, 177, 45, .11);
+}
+
+.calendar,
+.input_active .calendar__view,
+.calendar__view:focus,
+.table__list-container,
+.select__box:focus,
+.select__box_active .select__box,
+.select__box_active .select__list {
+    -webkit-box-shadow: 0px 0px 7px rgba(99, 177, 45, .35);
+    box-shadow: 0px 0px 7px rgba(99, 177, 45, .35);
+}
+
+.additional-info__editor,
+.input__text:not(:disabled) {
+    -webkit-box-shadow: inset 0 2px 4px rgba(137, 181, 106, .2);
+    box-shadow: inset 0 2px 4px rgba(137, 181, 106, .2);
+}
+
+.modal-header {
+    -webkit-box-shadow: 0 7px 7px rgba(242, 242, 242, .11);
+    box-shadow: 0 7px 7px rgba(242, 242, 242, .11);
+}
+
+.modal-wrapper {
+    -moz-box-shadow: 0px 2px 18px 0px #66715e;
+    box-shadow: 0px 2px 18px 0px #66715e
+}
+
+.modal-fullscreen__control {
+    -webkit-box-shadow: 0 5px 19px 0 #e8e8e8;
+    box-shadow: 0 5px 19px 0 #e8e8e8;
+}
+
+.list-box__container {
+    -webkit-box-shadow: 0px 3px 7px 0 rgba(99, 177, 45, .35);
+    box-shadow: 0px 3px 7px 0 rgba(99, 177, 45, .35);
+}

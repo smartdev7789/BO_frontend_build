@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>RisePOS Backoffice</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png?any=param">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="styles.9f394975cded2fbbca57.css"></head>
+
+<body>
+
+    <app-root>Loading...</app-root>
+<script src="runtime.a8ef3a8272419c2e2c66.js" defer></script><script src="polyfills-es5.5b09cdc1f043c5b0cb15.js" nomodule defer></script><script src="polyfills.f1bdd54deadcbdd4a010.js" defer></script><script src="scripts.ef6147e3f2c915aacf48.js" defer></script><script src="main.9b0f7e030f77ebe45420.js" defer></script></body>
+<script type="text/javascript">
+    var global = global || window;    
+
+    var tableToExcel = (function() {
+        var uri = 'data:application/vnd.ms-excel;base64,',
+            template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><meta http-equiv="content-type" content="text/plain; charset=UTF-8"/></head><body><table>{table}</table></body></html>',
+            base64 = function(s) {
+                return window.btoa(unescape(encodeURIComponent(s)))
+            },
+            format = function(s, c) {
+                return s.replace(/{(\w+)}/g, function(m, p) {
+                    return c[p];
+                })
+            }
+
+        return function(table, name) {
+            if (!table.nodeType) table = document.getElementById(table)
+            var ctx = {
+                worksheet: (name && name != 'name') ? name : "Sheet1",
+                table: table.innerHTML
+            }
+            var a = document.createElement('a');
+            var table_html = table.outerHTML.replace(/ /g, '%20');
+            a.href = uri + base64(format(template, ctx));
+            //setting the file name
+            if (name && name != 'name') {
+                var date = new Date();
+                a.download = name +"-"+date.toLocaleString()+ '.xls';
+            } else {
+                a.download = 'exported_table_' + '.xls';
+            }
+            a.click();
+        }
+    })()
+</script>
+
+</html>

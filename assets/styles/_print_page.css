@@ -1,0 +1,58 @@
+#invoice-print {
+	font-size: 20px;
+}
+
+.print-default-info-content {
+	color: black !important;    
+    font-size: 18px;    
+}
+
+.info-title {        
+    color: black !important;    
+    font-weight: bold !important;
+	font-size: 20px;    
+}
+
+/*.report-table {
+	width: 100%;
+}*/
+
+.report-table__cell, .table__sort-link, .input__clarification, .toggle__text, .breadcrumbs-link:last-child {
+	color: black !important;
+	font-size: 20px;
+}
+
+.report-table__row_top-head, .report-table__row_head, .report-table__cell, .card__row_border-bottom:after, .table__list_active .table__sort-link, .table__list-container, .table__list-item, .variant, .hidder__divider, .select__item {
+    border-color: #f2f2f2;
+}
+
+.report-table__row_top-head, .report-table__row_head, .report-table__cell {
+	border: 1px solid gray !important;
+}
+
+.report-table__body:last-child>.report-table__row:last-child>.report-table__cell_name, .report-table__body:last-child>.report-table__row:last-child>.report-table__cell_day {
+	border-bottom-width: thin;
+}
+
+.info-container > div  {
+	font-size: 20px;
+}
+
+.card__row {
+	margin-top: 0px !important;	
+}
+
+.report-table__cell {
+    height: 1.5em !important;
+    padding: 0 0.43333333em !important;
+}
+
+.report-table-wrapper {
+	padding-bottom: 0px;
+}
+
+.print-block-3 {
+	border: 1px solid gray !important;    
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+}

@@ -1,0 +1,35 @@
+/* Variabes */
+$color-1: #6a6a67
+$color-2: #a1a1a1
+$color-3: #e8e8e7
+$color-accent: #63b12d
+$color-accent-hover: #307E00
+$color-4: #2ed13b
+$color-5: #2d362d
+$color-6: #333333
+$color-7: #dee8d6
+$color-8: #f2f2f2
+$color-9: #b6c6b7
+$color-10: #282827
+$color-11: #d8e8d9
+$color-12: #fafafa
+$color-13: #a1a1a1
+$color-14: #e3e0e0
+$color-15: #6a6a67
+
+$extra-large: 1440px 
+$large: 1200px
+$medium: 992px
+$semi-medium: 768px
+$small: 480px
+
+$default-font: 'Open Sans', sans-serif
+
+/* Mixins */
+@mixin max-responsive($val)
+	@media only screen and (max-width : $val)
+		@content
+
+@mixin min-responsive($val)
+	@media only screen and (min-width : $val)
+		@content
